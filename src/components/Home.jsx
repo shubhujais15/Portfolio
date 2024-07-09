@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/mypict (1).jpg";
-// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                {/* <MdOutlineKeyboardArrowRight size={25} className="ml-1" /> */}
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
           </div>
