@@ -3,6 +3,7 @@ import foodDelivery from "../assets/portfolio/FoodDelivery.png";
 import cineai from "../assets/portfolio/CineAI.png"
 import currencyConverter from "../assets/portfolio/currency-Converter.png"
 import rockpaperscissor from "../assets/portfolio/rps.png"
+import chatwave from "../assets/portfolio/ChatWave.png"
 
 
 const Portfolio = () => {
@@ -21,12 +22,18 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: chatwave,
+      demo: "https://chat-wave-navy.vercel.app/",
+      code: "https://github.com/shubhujais15/ChatWave",
+    },
+    {
+      id: 4,
       src: currencyConverter,
       demo: "https://shubhujais15.github.io/Currency_Converter/", // Replace with your actual demo link
       code: "https://github.com/shubhujais15/Currency_Converter", // Replace with your actual code link
     },
     {
-      id: 4,
+      id: 5,
       src: rockpaperscissor,
       demo: "https://shubhujais15.github.io/Rock_Paper_Scissor/", // Replace with your actual demo link
       code: "https://github.com/shubhujais15/Rock_Paper_Scissor", // Replace with your actual code link
