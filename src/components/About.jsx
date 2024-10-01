@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl italic mt-20">
+        <p className="text-xl italic mt-12">
           Hello! I'm Shubham Jaiswal, a dedicated and passionate web developer
           currently pursuing B.E. in Artificial Intelligence & Machine Learning
           at JSS Academy Of Technical Education, Bengaluru. I thrive in creating
