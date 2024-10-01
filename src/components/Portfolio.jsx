@@ -1,43 +1,64 @@
 import React from "react";
 import foodDelivery from "../assets/portfolio/FoodDelivery.png";
 import cineai from "../assets/portfolio/CineAI.png"
-import currencyConverter from "../assets/portfolio/currency-Converter.png"
-import rockpaperscissor from "../assets/portfolio/rps.png"
+// import currencyConverter from "../assets/portfolio/currency-Converter.png"
+// import rockpaperscissor from "../assets/portfolio/rps.png"
 import chatwave from "../assets/portfolio/ChatWave.png"
+import hiringProcessManagement from "../assets/portfolio/HiringProcess.png"
+import healthChallengeTracker from "../assets/portfolio/HealthChallengeTracker.png"
+import passwordManager from "../assets/portfolio/PasswordManager.png"
 
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: hiringProcessManagement,
+      demo: "http://13.232.38.6:3000/",
+      code: "https://github.com/shubhujais15/Hiring-Process-Management",
+    },
+    {
+      id: 2,
       src: foodDelivery,
       demo: "https://flavorflow.onrender.com/",
       code: "https://github.com/shubhujais15/FlavorFlow",
     },
     {
-      id: 2,
+      id: 3,
       src: cineai,
       demo: "https://cineai-15.web.app/",
       code: "https://github.com/shubhujais15/CineAI",
     },
     {
-      id: 3,
+      id: 4,
       src: chatwave,
       demo: "https://chat-wave-navy.vercel.app/",
       code: "https://github.com/shubhujais15/ChatWave",
     },
     {
-      id: 4,
-      src: currencyConverter,
-      demo: "https://shubhujais15.github.io/Currency_Converter/", // Replace with your actual demo link
-      code: "https://github.com/shubhujais15/Currency_Converter", // Replace with your actual code link
+      id: 5,
+      src: healthChallengeTracker,
+      demo: "https://health-challenge-tracker-three.vercel.app/",
+      code: "https://github.com/shubhujais15/Health-Challenge-Tracker",
     },
     {
-      id: 5,
-      src: rockpaperscissor,
-      demo: "https://shubhujais15.github.io/Rock_Paper_Scissor/", // Replace with your actual demo link
-      code: "https://github.com/shubhujais15/Rock_Paper_Scissor", // Replace with your actual code link
+      id: 6,
+      src: passwordManager,
+      demo: "https://password-manager-pi-neon.vercel.app/",
+      code: "https://github.com/shubhujais15/Password-Manager",
     }
+    // {
+    //   id: 7,
+    //   src: currencyConverter,
+    //   demo: "https://shubhujais15.github.io/Currency_Converter/", // Replace with your actual demo link
+    //   code: "https://github.com/shubhujais15/Currency_Converter", // Replace with your actual code link
+    // },
+    // {
+    //   id: 8,
+    //   src: rockpaperscissor,
+    //   demo: "https://shubhujais15.github.io/Rock_Paper_Scissor/", // Replace with your actual demo link
+    //   code: "https://github.com/shubhujais15/Rock_Paper_Scissor", // Replace with your actual code link
+    // }
   ];
 
   return (
@@ -46,7 +67,7 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 mt-2">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
