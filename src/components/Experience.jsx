@@ -9,6 +9,8 @@ import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux-logo.png";
 import firebase from "../assets/firebase.png";
 import proglang from "../assets/c++.png";
+import angular from "../assets/angular_logo.png";
+import django from "../assets/django-logo.png";
 
 
 const Experience = () => {
@@ -39,30 +41,42 @@ const Experience = () => {
     },
     {
       id: 5,
+      src: angular,
+      title: "Angular",
+      style: "shadow-red-600",
+    },
+    {
+      id: 6,
+      src: django,
+      title: "Django",
+      style: "shadow-green-600",
+    },
+    {
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 8,
       src: redux,
       title: "Redux",
       style: "shadow-violet-600",
     },
     {
-      id: 7,
+      id: 9,
       src: firebase,
       title: "Firebase",
       style: "shadow-pink-400",
     },
     {
-      id: 8,
+      id: 10,
       src: proglang,
       title: "C++",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 11,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
@@ -75,7 +89,7 @@ const Experience = () => {
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
+        <div className="mt-60">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
